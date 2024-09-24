@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Pokémon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Buscar Pokémon</h1>
+        <form id="pokemonForm">
+            <input type="text" id="pokemonName" placeholder="Ingresa el nombre o número de un Pokémon" required>
+            <button type="submit">Buscar</button>
+        </form>
+
+        <div id="pokemonInfo" class="hidden">
+            <h2 id="pokemonTitle"></h2>
+            <img id="pokemonImage" alt="Imagen de Pokémon">
+            <p id="pokemonDescription"></p>
+            <p id="pokemonTypes"></p>
+            <p id="pokemonAbilities"></p>
+            <p id="pokemonStats"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
